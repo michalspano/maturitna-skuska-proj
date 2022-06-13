@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sk-SK">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+
+    <!-- == bootstrap == -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Maturitná skúška projekt</title>
+</head>
+<body class="modal-body">
+    <header style="padding: 10px;">
+        <h1 style="text-align: center;">Maturitná skúška 2021/2022 - objektívna spracovanie a analýza dát</h1><hr>
+
+        <p style="font-size: 18px; text-align: justify;">Vytvorenie formulára týkajúceho sa externej časti maturitnej skúšky
+            šk. rok 2021/2022 na Slovensku. Následne spracovanie a analýza dát do grafických atribútov, 
+            ako grafy a pod. pomocou prog. jazyka Python3. Výsledok projektu predstavuje práca zhromažďujúca 
+            všetky zanalyzované dáta vo forme brožúrky. Odkaz na pôvodný dotazník: <a href="https://forms.office.com/r/sGmeCNmaPt"> link</a>.
+        </p><hr>
+
+        <p style="font-size: 18px; text-align: justify; font-weight: 3575;"><i>
+            „Anonymný objektívny dotazník týkajúci sa maturitnej skúšky 2022 na Slovensku, určený pre maturantov, 
+            ale aj nematurantov a pedagógov. Na tvojom/Vašom názore záleží - každá odpoveď je dôležitá.
+            Účelom tohto dotazníka nie je presviedčať, resp. vnucovať istý názor, naopak, objektívne mapuje 
+            aspekty týkajúce sa maturitnej skúšky 2022 na Slovensku, a taktiež dopady na náučno-vzdelávací 
+            program spojené s ochorením COVID-19 na našom území."
+        </i></p><br>
+    </header>
+
+    <!-- == Include rendered PDF document == -->
+    <div class="media-body">
+        <object
+            width="100%" height="1200px" 
+            data="src/maturitna_skuska_complete.pdf"
+            border="0"
+            type="application/pdf"
+            title="Maturitná skúška"
+            style="margin: auto;">
+        </object>
+    </div>
+</body>
+</html>
