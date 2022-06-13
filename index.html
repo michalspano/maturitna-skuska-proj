@@ -32,14 +32,24 @@
 
     <!-- == Include rendered PDF document == -->
     <div class="media-body">
+        <object data='src/maturitna_skuska_complete.pdf'
+            type="application/pdf"
+            title="Maturitná skúška"
+            style="width:100%; height: 900px;" 
+            frameborder="0">
+            
+            <!-- fallback -->
+            <p>Oops! Your browser doesn't support PDFs!</p>
+            <p><a href="https://michalspano.github.io/maturitna-skuska-proj/src/maturitna_skuska_complete.pdf">Download Instead!</a></p>
+        </object>
+
         <iframe 
             src="http://docs.google.com/gview?url=https://michalspano.github.io/maturitna-skuska-proj/src/maturitna_skuska_complete.pdf&embedded=true" 
             type="application/pdf"
             title="Maturitná skúška"
             style="width:100%; height: 900px;" 
-            frameborder="0"
-            allowfullscreen
-        ></iframe>
+            frameborder="0">
+        </iframe>
     </div>
 </body>
 </html>
