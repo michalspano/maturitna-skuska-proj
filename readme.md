@@ -1,4 +1,4 @@
-### Maturitná skúška 2021/2022 - objektívna spracovanie a analýza dát
+### Maturitná skúška 2021/2022 - objektívne spracovanie a analýza dát
 ___
 
 Vytvorenie formulára týkajúceho sa externej časti maturitnej skúšky šk. rok 2021/2022 na Slovensku. Následne spracovanie a analýza dát do grafických atribútov, ako grafy a pod. pomocou prog. jazyka `Python3`. Výsledok projektu predstavuje práca zhromažďujúca všetky zanalyzované dáta vo forme brožúrky. Odkaz na pôvodný dotazník: [link](https://forms.office.com/pages/responsepage.aspx?id=R_en-YMo-UqLHiEQRWGG_e9CtXhe87FAm_eS3X-54J1UNEpZRjVKWFpXQkk3TkVWUlc4WkFLQVpNVy4u).
